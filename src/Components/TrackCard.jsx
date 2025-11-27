@@ -28,21 +28,6 @@ const TrackCard = ({ track }) => {
             borderTopRightRadius: "30px",
           }}
         />
-
-        {/* Mood Tag */}
-        <span
-          className="badge bg-primary text-white px-3 py-2 position-absolute"
-          style={{
-            top: "12px",
-            left: "12px",
-            borderRadius: "20px",
-            backdropFilter: "blur(6px)",
-          }}
-        >
-          {track.mood
-            ? track.mood.charAt(0).toUpperCase() + track.mood.slice(1)
-            : "Unknown"}
-        </span>
       </div>
 
       {/* Body */}

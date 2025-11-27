@@ -11,27 +11,31 @@ import { Wrapper } from "./Styles/Navbar";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
+import Mission from "./Routes/Mission";
+import Vision from "./Routes/Vision";
 
 function App() {
-    return (
-        <Router>
-            <GlobalStyle />
-              <div className="App d-flex flex-column min-vh-100">
-                  <Wrapper>
-                      <Navbar />
-                  </Wrapper>
-                  <main className="flex-grow-1">
-                      <Routes>
-                          <Route path="/" element={<Home />} />
-                          <Route path="/about" element={<About />} />
-                          <Route path="/music" element={<Music />} />
-                          <Route path="/contact" element={<Contact />} />
-                      </Routes>
-                  </main>
-                  <Footer />
-              </div>
-        </Router>
-    );
+  return (
+    <Router>
+      <GlobalStyle />
+      <div className="App d-flex flex-column min-vh-100">
+        <Wrapper>
+          <Navbar />
+        </Wrapper>
+        <main className="flex-grow-1">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/music" element={<Music />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/mission" element={<Mission />} />
+            <Route path="/vision" element={<Vision />} />
+          </Routes>
+        </main>
+        <Footer />
+      </div>
+    </Router>
+  );
 }
 
 export default App;

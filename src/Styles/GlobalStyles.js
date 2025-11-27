@@ -32,13 +32,19 @@ const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    background-color: var(--background-light) !important;
-    font-family: 'Mulish', serif;
+    /* background-color: var(--background-light) !important; */
+    font-family: 'Mulish', serif !important;
     color: var(--text-color);
   }
 
+  .gallery-image {
+    width: 100%;
+    height: 220px; /* Adjust to desired uniform height */
+    object-fit: cover;
+    border-radius: 20px;
+  }
   /* Typography */
-  .word-span { color: var(--primary-color); font-weight: bold; }
+  .word-span { color: var(--secondary-color); font-weight: bold; }
 
   
   h1, h2, h3, h4, h5, h6 {
