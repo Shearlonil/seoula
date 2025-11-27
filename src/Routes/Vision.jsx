@@ -24,9 +24,9 @@ const Vision = () => {
             <div className="col-md-6">
               <h2 className="fw-bold">Where Jazz Meets Innovation</h2>
               <p className="mt-3">
-                Our vision is to merge the timeless elegance of Jazz with the
-                power of modern technology — creating a space where music,
-                storytelling, and digital experiences evolve together.
+                To trail the performances of the best players in the world on
+                classical guitar example: Earl Klugh, Chet Atkins, Peter White,
+                Marc Antoine, Andres Segovia, Carlo Pezzimenti and many more
               </p>
             </div>
             <div className="col-md-6">

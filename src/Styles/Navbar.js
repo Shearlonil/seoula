@@ -60,6 +60,9 @@ export const Wrapper = styled.div`
     color: white !important;
     border-radius: 8px;
   }
+  .active-link:hover {
+    color: white !important;
+  }
 
   /* Remove underline when active */
   .active-link::after {

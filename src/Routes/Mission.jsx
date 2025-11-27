@@ -26,11 +26,9 @@ const Mission = () => {
             <div className="col-md-6">
               <h2 className="fw-bold">Inspiring the Next Generation</h2>
               <p className="mt-3">
-                Our mission is to build a platform that inspires young
-                musicians, students, and jazz lovers to connect deeply with the
-                rich heritage of Jazz music. We are committed to keeping Jazz
-                alive by giving it a home online where people can listen, learn,
-                and grow.
+                To build a corporate empire that includes and not limited to
+                music, farm and restaurants that generates employment
+                opportunities for the vast majority of youths of today
               </p>
             </div>
             <div className="col-md-6">
@@ -69,7 +67,7 @@ const Mission = () => {
       <section className="py-5 bg-white">
         <div className="container text-center">
           <h2 className="fw-bold mb-3">Building a Global Jazz Community</h2>
-          <p className="mx-auto" style={{ maxWidth: "700px;" }}>
+          <p className="mx-auto" style={{ maxWidth: "700px" }}>
             We believe Jazz is more than music — it's a shared experience.
             Through this platform, we aim to connect listeners from across the
             world, creating a space where Jazz is celebrated, preserved, and

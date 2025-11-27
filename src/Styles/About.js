@@ -98,7 +98,7 @@ export const Wrapper = styled.div`
   }
   .gallery-image {
     width: 100%;
-    height: 220px; /* Adjust to desired uniform height */
+    height: 220px;
     object-fit: cover;
     border-radius: 20px;
   }

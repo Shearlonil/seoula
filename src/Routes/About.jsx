@@ -212,10 +212,14 @@ const About = () => {
           </h2>
 
           <p className="mulish fs-5 text-center mb-5">
-            While SE’OULA is known globally for jazz and classical fusion, his
-            love for sports plays a major role in shaping his discipline,
-            energy, and creative process. From tennis to track & field, sports
-            remain a grounding part of his lifestyle.
+            Playing Classical guitar at the age of 22 (1982) in the US means
+            "Dexterity". Most Classical guitarists started as early as age 5. My
+            athletical background - Primary School Relay team representative,
+            first eleven soccer team in Primary and Secondary schools
+            (Principals cup), paved the way for a determined pursuit of the
+            Classical guitar. I am still currently very athletically active. The
+            name Se'uola means a rendezvous and entertainment of
+            happy rich people.
           </p>
 
           <div className="row g-4 justify-content-center">

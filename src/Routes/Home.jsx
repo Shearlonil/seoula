@@ -124,6 +124,8 @@ const Home = () => {
         </div>
       </HeroSection>
 
+      <hr className="border border-secondary container border-1 opacity-50" />
+
       {/* FEATURED TRACKS */}
       <section className="py-5 bg-light">
         <div className="container bg-dange">

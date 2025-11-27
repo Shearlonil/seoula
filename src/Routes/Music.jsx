@@ -74,10 +74,9 @@ const Music = () => {
       {/* Hero Section */}
       <HeroComp $heroImage={IMAGES.image1}>
         <div className="container text-center">
-          <h1 className="display-3 bricolage-grotesque mb-3">
+          <h1 className="display-3 bricolage-grotesque mt-5 pt-5">
             The <span className="word-span">Collection</span>
           </h1>
-          <p className="lead mulish">Vibrant tracks to fuel your playlist</p>
         </div>
       </HeroComp>
 

@@ -39,7 +39,7 @@ const GlobalStyle = createGlobalStyle`
 
   .gallery-image {
     width: 100%;
-    height: 220px; /* Adjust to desired uniform height */
+    height: 220px; 
     object-fit: cover;
     border-radius: 20px;
   }
@@ -82,7 +82,6 @@ const GlobalStyle = createGlobalStyle`
     color: var(--white-color);
   }
 
-  /* Cards - Jazz Theme */
   .card-jazz {
     background: rgba(255, 255, 255, 0.9);
     border: 1px solid rgba(99, 102, 241, 0.2);
@@ -122,7 +121,6 @@ const GlobalStyle = createGlobalStyle`
   }
 
 
-  /* Core Values / Track Cards */
   .card {
     border-radius: var(--border-radius-large);
     transition: transform 0.3s ease;
