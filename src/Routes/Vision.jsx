@@ -11,17 +11,13 @@ const VisionGallery = [
 const Vision = () => {
   return (
     <>
-      <HeroComp $heroImage={IMAGES.seoula_mic}>
-        <div className="container">
-          <h1 className="display-4 fw-bold">
-            Our <span className="word-span">Vision</span>
-          </h1>
-        </div>
-      </HeroComp>
       <section className="my-5">
         <div className="container py-3">
           <div className="row g-4 align-items-center">
             <div className="col-md-6">
+              <h1 className="display-4 fw-bold">
+                <span className="word-span">Vision</span>
+              </h1>
               <p className="mt-3 h3">
                 To trail the performances of the best players in the world on
                 classical guitar example: Earl Klugh, Chet Atkins, Peter White,

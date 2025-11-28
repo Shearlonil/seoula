@@ -13,7 +13,7 @@ const Navbar = () => {
 
   const navLinks = [
     { to: "/", label: "Home", icon: <FaHome /> },
-    { to: "/about", label: "Band Stand", icon: <FaUser /> },
+    { to: "/band-stand", label: "Band Stand", icon: <FaUser /> },
     { to: "/vision", label: "Vision", icon: <FaEnvelope /> },
     { to: "/mission", label: "Mission", icon: <FaEnvelope /> },
     { to: "/music", label: "Music", icon: <FaCompactDisc /> },

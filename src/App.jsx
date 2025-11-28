@@ -1,6 +1,6 @@
 import "./App.css";
 import Home from "./Routes/Home";
-import About from "./Routes/About";
+import BandStand from "./Routes/BandStand";
 import Music from "./Routes/Music";
 import Contact from "./Routes/Contact";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -25,7 +25,7 @@ function App() {
         <main className="flex-grow-1">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
+            <Route path="/band-stand" element={<BandStand />} />
             <Route path="/music" element={<Music />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/mission" element={<Mission />} />

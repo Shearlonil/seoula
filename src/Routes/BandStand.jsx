@@ -61,65 +61,24 @@ const sportGallery = [SportImg1, SportImg2, SportImg3, SportImg4, SportImg5];
 
 const About = () => {
   return (
-    <Wrapper>
+    <div className="my-5 py-5 container">
       {/* HERO */}
-      <section className="hero-wrapper position-relative text-white overflow-hidden">
-        {/* Overlay */}
-        <div className="hero-overlay"></div>
-
-        {/* Content */}
-        <div className="container position-relative py-5 hero-content">
-          <motion.h1
-            className="display-3 display-md-2 bricolage-grotesque fw-bold mb-3 text-center text-lg-start"
-            initial={{ opacity: 0, y: -40 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
-          >
-            Band Stand
-          </motion.h1>
-
-          {/* <motion.p
-            className="lead mulish mb-4 text-center text-lg-start"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 0.3 }}
-          >
-            Jazz Visionary • Composer • Soul Architect
-          </motion.p>
-
-          <motion.div
-            className="quote-box d-inline-block px-4 py-3 rounded-pill mx-auto mx-lg-0"
-            initial={{ scale: 0.8, opacity: 0 }}
-            animate={{ scale: 1, opacity: 1 }}
-            transition={{ delay: 0.5 }}
-          >
-            <FaQuoteLeft className="me-2" />
-            <em>Where tradition meets fearless innovation</em>
-          </motion.div> */}
-        </div>
-      </section>
-
-      {/* BIOGRAPHY */}
-      <section className="py-5 bg-light">
-        <div className="container text-center">
-          <motion.h2
-            className="display-5 bricolage-grotesque mb-4"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-          >
-            The Journey
-          </motion.h2>
-
+      <h1 className="display-4 fw-bold text-center mt-3">
+        Band <span className="word-span">Stand</span>
+      </h1>
           <motion.p
             className="lead mulish mb-3"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.2 }}
           >
-            <span className="fw-bold">Ogundele Tosin</span>{" "}
+            On the Classical guitar <span className="fw-bold">Ogundele Tosin</span>{" "}
             had a degree in Health Studies (Health Education Programme Planning) with a Second Major in Music and studied the Classical guitar in the United States with my teacher Carlo
             Pezzimenti who was a student of Andres Segovia in Spain.
           </motion.p>
+      {/* BIOGRAPHY */}
+      <section className="py-5 bg-light shadow-lg">
+        <div className="container text-center">
           <motion.p
             className="lead mulish mb-3"
             initial={{ opacity: 0 }}
@@ -139,54 +98,6 @@ const About = () => {
           </motion.p>
         </div>
       </section>
-
-      {/* TIMELINE
-      <section className="py-5 bg-white">
-        <div className="container">
-          <h2 className="text-center display-5 bricolage-grotesque mb-5">
-            Milestones
-          </h2>
-          <div className="row g-4 justify-content-center">
-            {timeline.map((item, i) => (
-              <motion.div
-                key={i}
-                className="col-md-6 col-lg-3"
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: i * 0.2 }}
-              >
-                <div
-                  className={`card h-100 border-0 shadow-lg rounded-4 overflow-hidden position-relative`}
-                  style={{
-                    background: "rgba(255,255,255,0.85)",
-                    backdropFilter: "blur(15px)",
-                  }}
-                >
-                  <div
-                  // className={`position-absolute top-0 start-0 w-100 h-3 bg-${item.color}`}
-                  ></div>
-                  <div className="card-body text-center pt-5">
-                    <div
-                      className={`d-inline-flex align-items-center justify-content-center rounded-circle mb-4 text-white bg-${item.color}`}
-                      style={{
-                        width: "90px",
-                        height: "90px",
-                        fontSize: "2rem",
-                      }}
-                    >
-                      {item.icon}
-                    </div>
-                    <h4 className="bricolage-grotesque text-dark fw-bold">
-                      {item.year}
-                    </h4>
-                    <p className="mulish mt-3 text-muted">{item.event}</p>
-                  </div>
-                </div>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section> */}
 
       {/* SPORTS SECTION */}
       <section className="py-5 bg-white">
@@ -240,39 +151,7 @@ const About = () => {
           </div>
         </div>
       </section>
-
-      {/*  */}
-      <section
-        className="py-5 text-white text-center"
-        style={{ background: "#6366f1" }}
-      >
-        <FaQuoteLeft className="display-1 opacity-20 mb-4" />
-        <div className="container m-4 m-auto">
-          <blockquote className="display-5 container bricolage-grotesque fw-light">
-            "SE'OULA's music changed my life. Every note feels like a story from
-            the soul."
-          </blockquote>
-        </div>
-        <p className="fs-4 mulish opacity-90 mt-3">— Jazz Enthusiast</p>
-      </section>
-
-      {/* SOCIAL */}
-      <section className="py-5 bg-light text-center">
-        <h3 className="bricolage-grotesque mb-4">Connect with SE'OULA</h3>
-        <div className="d-flex justify-content-center gap-5 fs-1 mb-3">
-          <a href="#" className="text-primary hover-scale">
-            <FaFacebook />
-          </a>
-          <a href="#" className="text-danger hover-scale">
-            <FaInstagram />
-          </a>
-          <a href="#" className="text-success hover-scale">
-            <FaSpotify />
-          </a>
-        </div>
-        <p className="mulish text-muted">Join 50K+ souls worldwide</p>
-      </section>
-    </Wrapper>
+    </div>
   );
 };
 
