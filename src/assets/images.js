@@ -12,6 +12,7 @@ const IMAGES = {
   image9: new URL("./Img/image9.jpg", import.meta.url).href,
   track_img1: new URL("./Img/track-image.jpg", import.meta.url).href,
   track_img2: new URL("./Img/track-image2.jpg", import.meta.url).href,
+  seoula_mic: new URL("./Img/seoula_mic.jpeg", import.meta.url).href,
   ////////////// SVGs
   // svg_fans_SECONDARY: new URL(
   //   "./svg/undraw_fans_SECONDARY.svg",

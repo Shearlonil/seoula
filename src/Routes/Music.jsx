@@ -45,34 +45,13 @@ const allTracks = [
     cover: IMAGES.track_img1,
     audio: Track5,
   },
-  {
-    id: 6,
-    title: "Track 3",
-    duration: "5:30",
-    cover: IMAGES.track_img1,
-    audio: Track3,
-  },
-  {
-    id: 7,
-    title: "Track 3",
-    duration: "4:10",
-    cover: IMAGES.track_img1,
-    audio: Track3,
-  },
-  {
-    id: 8,
-    title: "Track 3",
-    duration: "5:05",
-    cover: IMAGES.track_img1,
-    audio: Track3,
-  },
 ];
 
 const Music = () => {
   return (
     <>
       {/* Hero Section */}
-      <HeroComp $heroImage={IMAGES.image1}>
+      <HeroComp $heroImage={IMAGES.seoula_mic}>
         <div className="container text-center">
           <h1 className="display-3 bricolage-grotesque mt-5 pt-5">
             The <span className="word-span">Collection</span>
@@ -87,7 +66,7 @@ const Music = () => {
             {allTracks.map((track) => (
               <motion.div
                 key={track.id}
-                className="col-xl-3 col-lg-4 col-md-6"
+                className="col-xl-3 col-lg-4 col-3 col-md-6"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.4 }}

@@ -88,14 +88,15 @@ const Home = () => {
 
               <HeroParagraph>
                 Se'oula was conceived with the admiration and love for the
-                classical guitar — inspired by both contemporary and timeless
-                works.
+                classical guitar
               </HeroParagraph>
 
               <HeroParagraph>
-                Blending Traditional Jazz, Contemporary Jazz, Classical
-                influences, and cinematic soundtracks, Se'Oula delivers a deeply
-                expressive musical experience.
+                The Inspirational diversity of past and contemporary works for the classical guitar is the motivation for these recordings
+              </HeroParagraph>
+
+              <HeroParagraph className="mb-4">
+                However, the blend of Traditional Jazz, Contemporary Jazz, Classical and movie sound tracks for the entertainment industry is also a passionate area of interest.
               </HeroParagraph>
 
               <HeroParagraph className="mb-4">Please stay tuned.</HeroParagraph>
@@ -203,33 +204,6 @@ const Home = () => {
           </div>
         </div>
       </AboutPreviewSection>
-
-      {/* NEWSLETTER */}
-      <NewsletterSection className="py-5 text-center text-white">
-        <div className="container">
-          <h3 className="bricolage-grotesque mb-3">
-            Stay Connected with SE'OULA
-          </h3>
-          <p className="mulish mb-4">
-            Get new releases, updates, and exclusive content straight to your
-            inbox.
-          </p>
-
-          <div className="d-flex justify-content-center gap-2 flex-wrap">
-            <input
-              type="email"
-              placeholder="Enter your email"
-              className="form-control w-auto"
-              style={{
-                borderRadius: "40px",
-                padding: "10px 20px",
-                maxWidth: "300px",
-              }}
-            />
-            <button className="btn custom-btn px-4">Join Now</button>
-          </div>
-        </div>
-      </NewsletterSection>
     </>
   );
 };

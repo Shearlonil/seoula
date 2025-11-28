@@ -53,9 +53,7 @@ const albums = [
 ];
 
 const galleryImages = [
-  IMAGES.image1,
   IMAGES.image4,
-  IMAGES.image6,
   IMAGES.image5,
 ];
 
@@ -77,10 +75,10 @@ const About = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            SE'OULA
+            Band Stand
           </motion.h1>
 
-          <motion.p
+          {/* <motion.p
             className="lead mulish mb-4 text-center text-lg-start"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -97,7 +95,7 @@ const About = () => {
           >
             <FaQuoteLeft className="me-2" />
             <em>Where tradition meets fearless innovation</em>
-          </motion.div>
+          </motion.div> */}
         </div>
       </section>
 
@@ -118,16 +116,9 @@ const About = () => {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.2 }}
           >
-            Raised between health education classrooms and the warm timbre of
-            wooden strings, <span className="fw-bold">Ogundele Tosin</span>{" "}
-            built a life shaped equally by scholarship and sound. With a degree
-            in{" "}
-            <span className="fw-bold">
-              Health Studies <em>(Health Education Programme Planning)</em>
-            </span>{" "}
-            and a second major in Music, Tosin traveled to the United States to
-            refine his craft, studying Classical guitar under Carlo Pezzimenti —
-            himself a student of the legendary Andrés Segovia in Spain.
+            <span className="fw-bold">Ogundele Tosin</span>{" "}
+            had a degree in Health Studies (Health Education Programme Planning) with a Second Major in Music and studied the Classical guitar in the United States with my teacher Carlo
+            Pezzimenti who was a student of Andres Segovia in Spain.
           </motion.p>
           <motion.p
             className="lead mulish mb-3"
@@ -135,10 +126,7 @@ const About = () => {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.2 }}
           >
-            Since 1979, Earl Klugh has been Tosin’s enduring musical hero,
-            inspiring a lifelong pursuit of mastering the Classical guitar
-            across Jazz and Classical traditions, while stretching far beyond
-            into Pop, Country, Blues, and more.{" "}
+            My hero has been Earl Klugh since 1979 and i have tried to play the classical guitar both in Jazz and Classical styles and even beyond (POP, Country, Blues, etc.)
           </motion.p>
           <motion.p
             className="mulish fs-5 mb-3"
@@ -146,17 +134,13 @@ const About = () => {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.4 }}
           >
-            Today, Tosin performs with a tight-knit ensemble that brings
-            rhythmic depth and vibrant texture to every stage. The band features
-            Segun Adesina on Keyboard, Steve Drums on Drums, Ibukun Kushimo on
-            Drums and Conga, Dayo on Bass, and Leke Sax on Saxophone — a dynamic
-            team whose accompaniment forms the heartbeat beneath Tosin’s
-            expressive sound.
+            The rest of the band are providing basic rhythmic back-up (accompanyment) and includes Segun Adesina on Keyboard, Steve Drums on Drums, Ibukun, Kushimo on drums and conga, Dayo
+            on Bass and Leke sax on Saxophone.
           </motion.p>
         </div>
       </section>
 
-      {/* TIMELINE */}
+      {/* TIMELINE
       <section className="py-5 bg-white">
         <div className="container">
           <h2 className="text-center display-5 bricolage-grotesque mb-5">
@@ -202,7 +186,7 @@ const About = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* SPORTS SECTION */}
       <section className="py-5 bg-white">
@@ -217,7 +201,10 @@ const About = () => {
             athletical background - Primary School Relay team representative,
             first eleven soccer team in Primary and Secondary schools
             (Principals cup), paved the way for a determined pursuit of the
-            Classical guitar. I am still currently very athletically active. The
+            Classical guitar. I am still currently very athletically active. 
+          </p>
+          <p className="mulish fs-5 text-center mb-5">
+            The
             name Se'uola means a rendezvous and entertainment of
             happy rich people.
           </p>
@@ -254,64 +241,6 @@ const About = () => {
         </div>
       </section>
 
-      {/* FEATURED ALBUMS */}
-      <section className="py-5 bg-light">
-        <div className="container">
-          <h2 className="text-center display-5 bricolage-grotesque mb-5">
-            Featured Albums
-          </h2>
-          <div className="row g-4 justify-content-center">
-            {albums.map((album, i) => (
-              <motion.div
-                key={i}
-                className="col-sm-6 col-md-3"
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ delay: 0.2 * i }}
-              >
-                <div className="card h-100 shadow-sm rounded-4 overflow-hidden">
-                  <img
-                    src={album.cover}
-                    alt={album.title}
-                    className="card-img-top"
-                  />
-                  <div className="card-body text-center">
-                    <h5 className="bricolage-grotesque fw-bold">
-                      {album.title}
-                    </h5>
-                  </div>
-                </div>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* PHOTO GALLERY */}
-      <section className="py-5 bg-white">
-        <div className="container">
-          <h2 className="text-center display-5 bricolage-grotesque mb-5">
-            On Tour & Moments
-          </h2>
-          <div className="row g-3 justify-content-center">
-            {galleryImages.map((img, i) => (
-              <motion.div
-                key={i}
-                className="col-12 col-md-6"
-                whileHover={{ scale: 1.05 }}
-                transition={{ duration: 0.3 }}
-              >
-                <img
-                  src={img}
-                  alt={`Gallery ${i}`}
-                  className="img-fluid rounded-4 shadow-sm gallery-image"
-                />
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/*  */}
       <section
         className="py-5 text-white text-center"
@@ -325,29 +254,6 @@ const About = () => {
           </blockquote>
         </div>
         <p className="fs-4 mulish opacity-90 mt-3">— Jazz Enthusiast</p>
-      </section>
-
-      {/* */}
-      <section className="py-5 bg-light text-center">
-        <h3 className="bricolage-grotesque mb-4">Stay in the Loop</h3>
-        <p className="mulish mb-4">
-          Subscribe to get the latest albums, tours, and exclusive content.
-        </p>
-        <div className="d-flex justify-content-center gap-2 flex-wrap">
-          <input
-            type="email"
-            placeholder="Your email"
-            className="form-control w-auto"
-            style={{
-              maxWidth: "300px",
-              borderRadius: "30px",
-              padding: "10px 15px",
-            }}
-          />
-          <button className="btn custom-btn rounded-pill px-4">
-            Subscribe
-          </button>
-        </div>
       </section>
 
       {/* SOCIAL */}

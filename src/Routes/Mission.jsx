@@ -4,13 +4,12 @@ import { motion } from "framer-motion";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import IMAGES from "../assets/images";
 import HeroComp from "../Components/HeroComp";
-// import { HeroHeading, HeroParagraph, ImgShadow } from "../Styles/MissionStyles";
 
 const Mission = () => {
   return (
     <main>
       <HeroComp
-        $heroImage={IMAGES.image1}
+        $heroImage={IMAGES.seoula_mic}
         className="text-center bg-white d-flex flex-column align-items-center justify-content-center"
       >
         <div className="container mt-5 pt-5 text-center">
@@ -24,18 +23,17 @@ const Mission = () => {
         <div className="container">
           <div className="row align-items-center g-4">
             <div className="col-md-6">
-              <h2 className="fw-bold">Inspiring the Next Generation</h2>
-              <p className="mt-3">
+              <div className="mt-3 fw-bold h2">
                 To build a corporate empire that includes and not limited to
                 music, farm and restaurants that generates employment
                 opportunities for the vast majority of youths of today
-              </p>
+              </div>
             </div>
             <div className="col-md-6">
               <img
-                src={IMAGES.image5}
+                src={IMAGES.image1}
                 alt="Mission Image"
-                className="img-fluid image-shadow"
+                className="img-fluid image-shadow rounded-4 shadow-lg"
               />
             </div>
           </div>
@@ -55,24 +53,12 @@ const Mission = () => {
             </div>
             <div className="col-md-6">
               <img
-                src={IMAGES.image6}
+                src={IMAGES.image9}
                 alt="Mission Image 2"
-                className="img-fluid image-shadow"
+                className="img-fluid image-shadow rounded-4 shadow-lg"
               />
             </div>
           </div>
-        </div>
-      </section>
-
-      <section className="py-5 bg-white">
-        <div className="container text-center">
-          <h2 className="fw-bold mb-3">Building a Global Jazz Community</h2>
-          <p className="mx-auto" style={{ maxWidth: "700px" }}>
-            We believe Jazz is more than music — it's a shared experience.
-            Through this platform, we aim to connect listeners from across the
-            world, creating a space where Jazz is celebrated, preserved, and
-            passed on.
-          </p>
         </div>
       </section>
     </main>

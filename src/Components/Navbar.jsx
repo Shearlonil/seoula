@@ -14,10 +14,10 @@ const Navbar = () => {
   const navLinks = [
     { to: "/", label: "Home", icon: <FaHome /> },
     { to: "/about", label: "Band Stand", icon: <FaUser /> },
+    { to: "/vision", label: "Vision", icon: <FaEnvelope /> },
+    { to: "/mission", label: "Mission", icon: <FaEnvelope /> },
     { to: "/music", label: "Music", icon: <FaCompactDisc /> },
     { to: "/contact", label: "Contact", icon: <FaEnvelope /> },
-    { to: "/mission", label: "Mission", icon: <FaEnvelope /> },
-    { to: "/vision", label: "Vision", icon: <FaEnvelope /> },
   ];
 
   return (
