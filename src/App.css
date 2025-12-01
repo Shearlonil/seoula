@@ -1,19 +1,54 @@
 /* src/App.css (minimal, as most styles in GlobalStyle) */
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&family=Pinyon+Script&display=swap');
 body {
-  overflow-x: hidden;
+    overflow-x: hidden;
+    -webkit-animation-delay: 0.1s;
+    -webkit-animation-name: fontfix;
+    -webkit-animation-duration: 0.1s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes fontfix {
+    from { opacity: 1; }
+    to   { opacity: 1; }
 }
 
 .fade-in {
-  animation: fadeIn 1s ease-in-out;
+    animation: fadeIn 1s ease-in-out;
 }
 
+.pinyon-script-regular {
+    font-family: "PinyonScript-Regular";
+    font-weight: 400;
+    font-style: normal;
+}
+
+.pinyon-script {
+    font-family: "Pinyon Script", cursive;;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.imperial-script-regular {
+  font-family: "Imperial Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
 @keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@font-face {
+    font-family: 'PinyonScript-Regular';
+    src: local('PinyonScript-Regular'), url("../src/assets/Fonts/PinyonScript-Regular.ttf") format('truetype');
 }

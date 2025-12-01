@@ -3,47 +3,47 @@ import TrackCard from "../Components/TrackCard";
 import IMAGES from "../assets/images";
 import HeroComp from "../Components/HeroComp";
 
-import Track1 from "../assets/Tracks/01 Track 1.mp3";
-import Track2 from "../assets/Tracks/02 Track 2.mp3";
-import Track3 from "../assets/Tracks/03 Track 3.mp3";
-import Track4 from "../assets/Tracks/04 Track 4.mp3";
-import Track5 from "../assets/Tracks/05 Track 5.mp3";
+import Civilization from "../assets/Tracks/Civilization.mp3";
+import OnTheWingsOfLove from "../assets/Tracks/On_the_wings_of_love.mp3";
+import PerfectFour from "../assets/Tracks/perfect_four.mp3";
+import ForYourLoveAndItsCozOfYou from "../assets/Tracks/for_your_love_and-its_coz_of_u.mp3";
+import AfroFunk from "../assets/Tracks/afro_funk.mp3";
 
 const allTracks = [
   {
     id: 1,
-    title: "Track 1",
+    title: "Civilization",
     duration: "4:32",
     cover: IMAGES.track_img1,
-    audio: Track1,
+    audio: Civilization,
   },
   {
     id: 2,
-    title: "Track 2",
+    title: "On The Wings Of Love",
     duration: "5:18",
     cover: IMAGES.track_img1,
-    audio: Track2,
+    audio: OnTheWingsOfLove,
   },
   {
     id: 3,
-    title: "Track 3",
+    title: "Perfect Four",
     duration: "3:55",
     cover: IMAGES.track_img1,
-    audio: Track3,
+    audio: PerfectFour,
   },
   {
     id: 4,
-    title: "Track 4",
+    title: "For Your Love And It's Just Because Of You",
     duration: "6:12",
     cover: IMAGES.track_img1,
-    audio: Track4,
+    audio: ForYourLoveAndItsCozOfYou,
   },
   {
     id: 5,
-    title: "Track 5",
+    title: "Afro Funk",
     duration: "4:45",
     cover: IMAGES.track_img1,
-    audio: Track5,
+    audio: AfroFunk,
   },
 ];
 
@@ -51,13 +51,10 @@ const Music = () => {
   return (
     <>
       {/* Hero Section */}
-      <HeroComp $heroImage={IMAGES.seoula_mic}>
-        <div className="container text-center">
-          <h1 className="display-3 bricolage-grotesque mt-5 pt-5">
-            The <span className="word-span">Collection</span>
-          </h1>
-        </div>
-      </HeroComp>
+      <HeroComp $heroImage={IMAGES.seoula_mic}></HeroComp>
+      <h1 className="display-3 bricolage-grotesque container mt-2 pt-5">
+        <span className="word-span">Tracks</span>
+      </h1>
 
       {/* Track Grid */}
       <section className="py-5">

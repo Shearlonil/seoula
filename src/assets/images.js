@@ -13,6 +13,12 @@ const IMAGES = {
   track_img1: new URL("./Img/track-image.jpg", import.meta.url).href,
   track_img2: new URL("./Img/track-image2.jpg", import.meta.url).href,
   seoula_mic: new URL("./Img/seoula_mic.jpeg", import.meta.url).href,
+  badminton_player: new URL("./Img/badminton-player.jpg", import.meta.url).href,
+  basketball_player: new URL("./Img/basketball-player.jpg", import.meta.url).href,
+  female_handball_player: new URL("./Img/female-handball-player.jpg", import.meta.url).href,
+  handball_player: new URL("./Img/handball-player.jpg", import.meta.url).href,
+  handball_sketchy: new URL("./Img/handball-sketchy.jpg", import.meta.url).href,
+  fitness_woman_player: new URL("./Img/fitness-woman.jpg", import.meta.url).href,
   ////////////// SVGs
   // svg_fans_SECONDARY: new URL(
   //   "./svg/undraw_fans_SECONDARY.svg",

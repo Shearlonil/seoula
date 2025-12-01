@@ -6,6 +6,7 @@ import {
   FaFacebook,
   FaInstagram,
 } from "react-icons/fa";
+import { TbWorldWww } from "react-icons/tb";
 import { motion } from "framer-motion";
 import { Wrapper } from "../Styles/Contact";
 
@@ -85,25 +86,37 @@ const Contact = () => {
               <div className="card card-jazz p-4 h-100 shadow-sm">
                 <h3 className="bricolage-grotesque mb-4">Contact Details</h3>
 
+                <h4 className="bricolage-grotesque mb-4">Ogundele Oluwatosin Femi</h4>
+
+                <div className="d-flex flex-column mb-3 gap-3">
+                  <div className="d-flex">
+                    <FaPhone className="text-primary fs-5 me-3" />
+                    <span className="mulish">+234 706 649 1895</span>
+                  </div>
+                  <div className="d-flex">
+                    <FaPhone className="text-primary fs-5 me-3" />
+                    <span className="mulish">+234 807 627 5473</span>
+                  </div>
+                </div>
+
                 <div className="d-flex align-items-center mb-3">
-                  <FaPhone className="text-primary fs-5 me-3" />
-                  <span className="mulish">+234 801 234 5678</span>
+                  <TbWorldWww className="text-primary fs-5 me-3" />
+                  <span className="mulish">www.seoula.com</span>
                 </div>
 
                 <div className="d-flex align-items-center mb-3">
                   <FaEnvelope className="text-primary fs-5 me-3" />
-                  <span className="mulish">hello@seoula.com</span>
+                  <span className="mulish">tosinogundele409@gmail.com</span>
                 </div>
 
                 <div className="d-flex align-items-center mb-3">
                   <FaMapMarkerAlt className="text-primary fs-5 me-3" />
-                  <span className="mulish">Ogun State, Nigeria.</span>
+                  <span className="mulish">Abeokuta, Ogun State, Nigeria.</span>
                 </div>
 
-                <div className="d-flex align-items-center mb-4">
-                  <FaClock className="text-primary fs-5 me-3" />
-                  <span className="mulish">Open for bookings & gigs</span>
-                </div>
+                <h5>
+                  Agents performace dates and location will be announced soon.
+                </h5>
 
                 <h6 className="mulish fw-bold">Social</h6>
                 <div className="d-flex gap-3 mt-2">

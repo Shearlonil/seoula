@@ -21,7 +21,7 @@ const Vision = () => {
               <p className="mt-3 h3">
                 To trail the performances of the best players in the world on
                 classical guitar example: Earl Klugh, Chet Atkins, Peter White,
-                Marc Antoine, Andres Segovia, Carlo Pezzimenti and many more
+                Marc Antonie, Andres Segovia, Carlo Pezzimenti and many more
               </p>
             </div>
             <div className="col-md-6">

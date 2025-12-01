@@ -2,10 +2,12 @@ import { Link, useLocation } from "react-router-dom";
 import {
   FaMusic,
   FaHome,
-  FaUser,
-  FaCompactDisc,
+  FaGuitar,
   FaEnvelope,
 } from "react-icons/fa";
+import { BsMusicPlayerFill } from "react-icons/bs";
+import { GoGoal } from "react-icons/go";
+import { GiPerspectiveDiceFour } from "react-icons/gi";
 import { Wrapper } from "../Styles/Navbar";
 
 const Navbar = () => {
@@ -13,10 +15,10 @@ const Navbar = () => {
 
   const navLinks = [
     { to: "/", label: "Home", icon: <FaHome /> },
-    { to: "/band-stand", label: "Band Stand", icon: <FaUser /> },
-    { to: "/vision", label: "Vision", icon: <FaEnvelope /> },
-    { to: "/mission", label: "Mission", icon: <FaEnvelope /> },
-    { to: "/music", label: "Music", icon: <FaCompactDisc /> },
+    { to: "/band-stand", label: "Band Stand", icon: <FaGuitar /> },
+    { to: "/vision", label: "Vision", icon: <GiPerspectiveDiceFour /> },
+    { to: "/mission", label: "Mission", icon: <GoGoal /> },
+    { to: "/music", label: "Music", icon: <BsMusicPlayerFill /> },
     { to: "/contact", label: "Contact", icon: <FaEnvelope /> },
   ];
 

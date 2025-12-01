@@ -39,7 +39,8 @@ export const HeroImageWrapper = styled.div`
 export const HeroHeading = styled.h1`
   font-size: 6rem;
   font-weight: 800;
-  font-family: "Bricolage Grotesque", sans-serif;
+  // font-family: "PinyonScript-Regular";
+  font-family: "Bricolage Grotesque";
   color: #111827;
 
   @media (max-width: 768px) {

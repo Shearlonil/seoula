@@ -1,69 +1,21 @@
 import { motion } from "framer-motion";
-import {
-  FaQuoteLeft,
-  FaTrophy,
-  FaMusic,
-  FaFacebook,
-  FaInstagram,
-  FaSpotify,
-  FaMicrophoneAlt,
-  FaHeadphonesAlt,
-} from "react-icons/fa";
-
-import SportImg1 from "../assets/Img/sport-1.jpg";
-import SportImg2 from "../assets/Img/sport-2.jpg";
-import SportImg3 from "../assets/Img/sport-3.jpg";
-import SportImg4 from "../assets/Img/sport-4.jpg";
-import SportImg5 from "../assets/Img/sport-5.jpg";
 
 import IMAGES from "../assets/images";
-import { Wrapper } from "../Styles/About";
-const timeline = [
-  {
-    year: "2015",
-    event: "Debut Album 'Midnight Echoes'",
-    icon: <FaMusic />,
-    color: "primary",
-  },
-  {
-    year: "2018",
-    event: "Montreal Jazz Festival Headliner",
-    icon: <FaMicrophoneAlt />,
-    color: "secondary",
-  },
-  {
-    year: "2020",
-    event: "Best Emerging Jazz Artist Award",
-    icon: <FaTrophy />,
-    color: "success",
-  },
-  {
-    year: "2023",
-    event: "Global Tour • 15 Countries",
-    icon: <FaHeadphonesAlt />,
-    color: "warning",
-  },
-];
 
-const albums = [
-  { title: "Midnight Echoes", cover: IMAGES.track_img1 },
-  { title: "Blue Velvet Dreams", cover: IMAGES.track_img1 },
-  { title: "Golden Hour Swing", cover: IMAGES.track_img1 },
-  { title: "Urban Echoes", cover: IMAGES.track_img1 },
-];
+const About = () => {
 
-const galleryImages = [
-  IMAGES.image4,
-  IMAGES.image5,
-];
+const SportImg1 = IMAGES.badminton_player;
+const SportImg2 = IMAGES.basketball_player;
+const SportImg3 = IMAGES.female_handball_player;
+const SportImg4 = IMAGES.fitness_woman_player;
+const SportImg5 = IMAGES.handball_player;
 
 const sportGallery = [SportImg1, SportImg2, SportImg3, SportImg4, SportImg5];
 
-const About = () => {
   return (
     <div className="my-5 py-5 container">
       {/* HERO */}
-      <h1 className="display-4 fw-bold text-center mt-3">
+      <h1 className="display-4 fw-bold mt-3">
         Band <span className="word-span">Stand</span>
       </h1>
           <motion.p
@@ -85,7 +37,7 @@ const About = () => {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.2 }}
           >
-            My hero has been Earl Klugh since 1979 and i have tried to play the classical guitar both in Jazz and Classical styles and even beyond (POP, Country, Blues, etc.)
+            My hero has been Earl Klugh since 1979 and i have tried to play the classical guitar both in Jazz and Classical styles and even beyond (Pop, Country, Blues, etc.)
           </motion.p>
           <motion.p
             className="mulish fs-5 mb-3"
@@ -102,8 +54,8 @@ const About = () => {
       {/* SPORTS SECTION */}
       <section className="py-5 bg-white">
         <div className="container">
-          <h2 className="text-center display-5 bricolage-grotesque mb-4">
-            SE’OULA in Sports
+          <h2 className="fw-bold display-5 bricolage-grotesque mb-4">
+            SPORTS
           </h2>
 
           <p className="mulish fs-5 text-center mb-5">

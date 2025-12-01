@@ -2,56 +2,20 @@ import React from "react";
 import { Link } from "react-router-dom";
 import {
   FaPlay,
-  FaArrowRight,
   FaMusic,
-  FaHeadphones,
   FaSeedling,
   FaFootballBall,
 } from "react-icons/fa";
 import { motion } from "framer-motion";
 
-import TrackCard from "../Components/TrackCard";
 import IMAGES from "../assets/images";
-import Track1 from "../assets/Tracks/01 Track 1.mp3";
-import Track2 from "../assets/Tracks/02 Track 2.mp3";
-import Track3 from "../assets/Tracks/03 Track 3.mp3";
 import {
-  AboutPreviewSection,
-  ExperienceCard,
-  ExperienceSection,
   HeroHeading,
   HeroImageWrapper,
   HeroParagraph,
   HeroSection,
-  NewsletterSection,
 } from "../Styles/Home";
 
-const featuredTracks = [
-  {
-    id: 1,
-    title: "Midnight Serenade",
-    duration: "4:32",
-    cover: IMAGES.track_img2,
-    audio: Track1,
-    mood: "soulful",
-  },
-  {
-    id: 2,
-    title: "Blue Velvet Dreams",
-    duration: "5:18",
-    cover: IMAGES.track_img2,
-    audio: Track2,
-    mood: "romantic",
-  },
-  {
-    id: 3,
-    title: "Golden Hour Swing",
-    duration: "3:55",
-    cover: IMAGES.track_img2,
-    audio: Track3,
-    mood: "uplifting",
-  },
-];
 const details = [
   {
     icon: <FaMusic size={40} />,
@@ -84,7 +48,10 @@ const Home = () => {
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.6 }}
             >
+              {/* <h1 className='imperial-script-regular'>SE'OULA</h1> */}
               <HeroHeading>SE'OULA</HeroHeading>
+
+              <h3>Site Under construction</h3>
 
               <HeroParagraph>
                 Se'oula was conceived with the admiration and love for the
